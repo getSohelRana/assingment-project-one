@@ -13,6 +13,9 @@
     --text-secondary: #252432;
     --text-light: #757575;
 }
+body{
+    background-color: #F5F8FF;
+}
 
 .raleway-myFont {
   font-family: "Raleway", sans-serif;
@@ -128,4 +131,35 @@
 .count-itms p{
     color: var(--text-light);
     font-size: 20px;
+}
+/* ================ count-down section design end here================ */
+.clients-reviews .revies-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.reviews-content{
+    display: flex;
+    justify-content: space-between;
+   gap: 60px;
+}
+.reviews-box{
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 24px;
+}
+.reviews-icon{
+    margin-bottom: 24px;
+}
+.reviewer-description p{
+    margin: 24px 0px;
+    font-size: 18px;
+}
+.reviewer-profile{
+    display: flex;
+    gap: 20px;
+}
+.reviewer-profile img{
+    border-radius: 50%;
 }
