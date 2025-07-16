@@ -192,3 +192,59 @@ body{
     border-radius: 48px;
 }
 /* ================ focus better section design end here================ */
+.footer-content{
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+    align-items: center;
+}
+.content-title h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.footer-form-group{
+    display: flex;
+    flex-direction: column;
+}
+.footer-form-group label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-form input{
+    width: 497px;
+    height: 70px;
+    padding: 32px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid #D6DDED;
+    margin-bottom: 19px;
+    font-size: 18px;
+}
+.footer-form textarea{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid #D6DDED;
+    padding: 32px 20px;
+    margin-bottom: 19px;
+    font-size: 18px;
+}
+.footer-form input:focus{
+    outline: 2px solid #098566;
+}
+.footer-form input:focus::placeholder,
+.footer-form textarea:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+/* Add vendor prefixes for better browser support */
+.footer-form input:focus::-webkit-input-placeholder,
+.footer-form textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+/* ================ foooter contract section design end here================ */
