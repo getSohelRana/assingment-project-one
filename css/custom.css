@@ -142,7 +142,7 @@ body{
 .reviews-content{
     display: flex;
     justify-content: space-between;
-   gap: 60px;
+    gap: 60px;
 }
 .reviews-box{
     background-color: #fff;
@@ -163,3 +163,32 @@ body{
 .reviewer-profile img{
     border-radius: 50%;
 }
+/* ================ reviews section design end here================ */
+.focus-better-wrapper{
+    background-color: #ffffff;
+    padding: 71px 150px;
+}
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.focus-better-content p{
+    text-align: center;
+    margin: 20px 0px;
+    color: var(--text-light);
+}
+.focus-better-btn{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.focus-better-img-box img{
+    width: 840px;
+    height: 364px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 48px;
+}
+/* ================ focus better section design end here================ */
